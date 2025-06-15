@@ -1,10 +1,10 @@
 #theme: jekyll-midnight
 
-plugins:
-  - jekyll-relative-links
+#plugins:
+#  - jekyll-relative-links
 
-relative_links:
-  enabled: true
-  collections: true
-  exclude:
-  - README.md
+#relative_links:
+#  enabled: true
+#  collections: true
+#  exclude:
+#  - README.md
