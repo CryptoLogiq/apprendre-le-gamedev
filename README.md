@@ -1,6 +1,6 @@
 # GameLogiq - Apprends à coder tes jeux vidéo
 
-Bienvenue sur **GameLogiq**, un projet pour apprendre à créer des jeux vidéo gratuitement, même sans expérience en programmation !
+Bienvenue sur **GameLogiq**, un de mes projet pour vous apprendre à créer des jeux vidéo gratuitement, même sans expérience en programmation !
 
 ## Présentation
 
@@ -14,7 +14,7 @@ C’est amusant, accessible et utile pour ouvrir des portes dans le monde du jeu
 
 ## Comment commencer ?
 
-Visite notre site : [https://cryptologiq.github.io/apprendre-le-gamedev/](https://cryptologiq.github.io/apprendre-le-gamedev/)
+Visite notre site : [https://cryptologiq.github.io/gamelogiq/](https://cryptologiq.github.io/gamelogiq/)
 
 - Lis le guide “Les bases de la programmation”.
 - Suis le premier tuto pour coder un mini-jeu en moins d’une heure.
@@ -24,4 +24,4 @@ Visite notre site : [https://cryptologiq.github.io/apprendre-le-gamedev/](https:
 
 GameLogiq.dev est une initiative communautaire passionnée par les jeux vidéo et l’enseignement. Notre mission : rendre la programmation accessible à tous.
 
-Prêt à coder ton premier jeu ? [Commence maintenant !](https://cryptologiq.github.io/apprendre-le-gamedev/)
+Prêt à coder ton premier jeu ? [Commence maintenant !](https://cryptologiq.github.io/gamelogiq/)
