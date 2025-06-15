@@ -1,1 +1,3 @@
-[Accueil](./) | [Liste des Cours](cours/) | [Communauté Discord](pages/discord/)
+- [Accueil](https://cryptologiq.github.io/gamelogiq/)
+- [Liste des Cours](https://cryptologiq.github.io/gamelogiq/cours/)
+- [Communauté Discord](https://cryptologiq.github.io/gamelogiq/pages/discord/)
