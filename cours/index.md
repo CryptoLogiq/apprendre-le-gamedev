@@ -2,6 +2,7 @@
 title: "Liste des Cours"
 date: 2022-02-24
 ---
+{% include navbar.md %}
 
 Vous trouverez dans cette page tout le contenu des cours concernant la création de jeu vidéo.
 

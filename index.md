@@ -2,7 +2,6 @@
 title: "Accueil"
 date: 2022-02-25
 ---
-
 {% include navbar.md %}
 
 ## Bienvenue sur GameLogiq : Apprends à coder tes propres jeux vidéo, gratuitement !
