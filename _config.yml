@@ -1,8 +1,7 @@
-plugins:
-  - jekyll-relative-links
+plugins: jekyll-relative-links
+
 theme: jekyll-midnight
+
 relative_links:
   enabled: true
   collections: true
-include:
-  - README.md
