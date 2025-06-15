@@ -3,7 +3,7 @@ title: "Accueil"
 date: 2022-02-25
 ---
 
-<nav>{% include navbar.md %}</nav>
+{% include navbar.md %}
 
 ## Bienvenue sur GameLogiq : Apprends à coder tes propres jeux vidéo, gratuitement !
 
