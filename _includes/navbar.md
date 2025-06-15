@@ -1,1 +1,1 @@
-- [Accueil](/index.md) | [Cours](/cours/index.md) | [Communauté](/communaute.md) | [À propos](/pages/a-propos.md)
+[Accueil](/) | [Liste des Cours](/cours/) | [Communauté Discord](pages/discord/)
