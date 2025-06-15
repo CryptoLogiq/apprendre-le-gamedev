@@ -1,4 +1,3 @@
 - [Accueil](https://cryptologiq.github.io/gamelogiq/)
-- [Liste des Cours](https://cryptologiq.github.io/gamelogiq/cours/)
-- [Les Communautés](https://cryptologiq.github.io/gamelogiq/pages/communautes/)
+- [Retour aux Cours](https://cryptologiq.github.io/gamelogiq/cours/)
 - [Le Discord](https://cryptologiq.github.io/gamelogiq/pages/discord/)

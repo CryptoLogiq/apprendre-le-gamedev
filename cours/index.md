@@ -15,9 +15,9 @@ Seule votre créativité sera votre limite en suivant les techniques enseignées
 
 Bon apprentissage à tous.
 
-## **[1\. Découverte de GameLogic.dev](decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement/index.md)**
+## **[1\. Découverte de GameLogic.dev](decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement)**
 
-[![](images/Logo_Cours_1.png)](decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement/index.md)
+[![](images/Logo_Cours_1.png)](decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement)
 
 ##### _À propos du cours_
 
@@ -25,9 +25,9 @@ Découvrir en quoi consiste la création de jeux vidéo, ses origines et les out
 
 
 
-## **[2\. Installation de mon premier Outil (IDE)](installation-love2d-et-parametrage-de-lide-zerobrane/index.md)**
+## **[2\. Installation de mon premier Outil (IDE)](installation-love2d-et-parametrage-de-lide-zerobrane)**
 
-[![](images/Mon-premier_Outil_IDE_Lua.png)](installation-love2d-et-parametrage-de-lide-zerobrane/index.md)
+[![](images/Mon-premier_Outil_IDE_Lua.png)](installation-love2d-et-parametrage-de-lide-zerobrane)
 
 ##### _À propos du cours_
 
@@ -35,9 +35,9 @@ Guide d'installation pas à pas de votre environnement de travail.
 
 
 
-## **[3\. Les Notions en Mathématique Conseillé pour le Game Developpement](3-les-mathematiques-les-bases-en-gamedev/index.md)**
+## **[3\. Les Notions en Mathématique Conseillé pour le Game Developpement](3-les-mathematiques-les-bases-en-gamedev)**
 
-[![](images/maths.png)](3-les-mathematiques-les-bases-en-gamedev/index.md)
+[![](images/maths.png)](3-les-mathematiques-les-bases-en-gamedev)
 
 ##### _À propos du cours_
 
@@ -57,9 +57,9 @@ Le contenu a été sélectionné avec les critères de choix suivants :
 
 
 
-## **[4\. Apprendre Mon Premier Langage](4-apprendre-mon-premier-langage-avec-lua-les-bases-lua/index.md)**
+## **[4\. Apprendre Mon Premier Langage](4-apprendre-mon-premier-langage-avec-lua-les-bases-lua)**
 
-[![](images/mon_premier_langage_lua.png)](4-apprendre-mon-premier-langage-avec-lua-les-bases-lua/index.md)
+[![](images/mon_premier_langage_lua.png)](4-apprendre-mon-premier-langage-avec-lua-les-bases-lua)
 
 ##### _À propos du cours_
 
@@ -67,7 +67,7 @@ Dans ce cours, vous apprendrez les **bases du langage Lua** qui vont permettro
 
 
 
-## **[5\. Mon Premier Framework avec Lua et Love2D](5-mon-premier-framework-avec-lua-et-love2d-les-bases-love2d/index.md)**
+## **[5\. Mon Premier Framework avec Lua et Love2D](5-mon-premier-framework-avec-lua-et-love2d-les-bases-love2d)**
 
 [![](images/mon_premier_framework_lua_love2d.png)](5-mon-premier-framework-avec-lua-et-love2d-les-bases-love2d.md)
 
