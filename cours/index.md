@@ -14,9 +14,9 @@ Seule votre créativité sera votre limite en suivant les techniques enseignées
 
 Bon apprentissage à tous.
 
-## **[1\. Découverte de GameLogic.dev](cours/decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement/index.md)**
+## **[1\. Découverte de GameLogic.dev](decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement/index.md)**
 
-[![](images/Logo_Cours_1.png)](cours/decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement/index.md)
+[![](images/Logo_Cours_1.png)](decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement/index.md)
 
 ##### _À propos du cours_
 
@@ -24,9 +24,9 @@ Découvrir en quoi consiste la création de jeux vidéo, ses origines et les out
 
 * * *
 
-## **[2\. Installation de mon premier Outil (IDE)](cours/installation-love2d-et-parametrage-de-lide-zerobrane/index.md)**
+## **[2\. Installation de mon premier Outil (IDE)](installation-love2d-et-parametrage-de-lide-zerobrane/index.md)**
 
-[![](images/Mon-premier_Outil_IDE_Lua.png)](cours/installation-love2d-et-parametrage-de-lide-zerobrane/index.md)
+[![](images/Mon-premier_Outil_IDE_Lua.png)](installation-love2d-et-parametrage-de-lide-zerobrane/index.md)
 
 ##### _À propos du cours_
 
@@ -34,9 +34,9 @@ Guide d'installation pas à pas de votre environnement de travail.
 
 * * *
 
-## **[3\. Les Notions en Mathématique Conseillé pour le Game Developpement](cours/3-les-mathematiques-les-bases-en-gamedev/index.md)**
+## **[3\. Les Notions en Mathématique Conseillé pour le Game Developpement](3-les-mathematiques-les-bases-en-gamedev/index.md)**
 
-[![](images/maths.png)](cours/3-les-mathematiques-les-bases-en-gamedev/index.md)
+[![](images/maths.png)](3-les-mathematiques-les-bases-en-gamedev/index.md)
 
 ##### _À propos du cours_
 
@@ -56,9 +56,9 @@ Le contenu a été sélectionné avec les critères de choix suivants :
 
 * * *
 
-## **[4\. Apprendre Mon Premier Langage](cours/4-apprendre-mon-premier-langage-avec-lua-les-bases-lua/index.md)**
+## **[4\. Apprendre Mon Premier Langage](4-apprendre-mon-premier-langage-avec-lua-les-bases-lua/index.md)**
 
-[![](images/mon_premier_langage_lua.png)](cours/4-apprendre-mon-premier-langage-avec-lua-les-bases-lua/index.md)
+[![](images/mon_premier_langage_lua.png)](4-apprendre-mon-premier-langage-avec-lua-les-bases-lua/index.md)
 
 ##### _À propos du cours_
 
@@ -66,9 +66,9 @@ Dans ce cours, vous apprendrez les **bases du langage Lua** qui vont permettro
 
 * * *
 
-## **[5\. Mon Premier Framework avec Lua et Love2D](cours/5-mon-premier-framework-avec-lua-et-love2d-les-bases-love2d/index.md)**
+## **[5\. Mon Premier Framework avec Lua et Love2D](5-mon-premier-framework-avec-lua-et-love2d-les-bases-love2d/index.md)**
 
-[![](images/mon_premier_framework_lua_love2d.png)](cours/5-mon-premier-framework-avec-lua-et-love2d-les-bases-love2d.md)
+[![](images/mon_premier_framework_lua_love2d.png)](5-mon-premier-framework-avec-lua-et-love2d-les-bases-love2d.md)
 
 ##### _À propos du cours_
 
@@ -82,9 +82,9 @@ Love2D est alors capable d’afficher du texte, de charger des polices, de charg
 
 * * *
 
-## **[6\. Les Concepts indispensables du GameDevelloper](cours/6-les-concepts-essentiels/ "6. Les Concepts indispensables du GameDevelloper")**
+## **[6\. Les Concepts indispensables du GameDevelloper](6-les-concepts-essentiels/ "6. Les Concepts indispensables du GameDevelloper")**
 
-[![](images/concepts_essentiels_competences.png)](cours/6-les-concepts-essentiels.md)
+[![](images/concepts_essentiels_competences.png)](6-les-concepts-essentiels.md)
 
 ##### _À propos du cours_
 
@@ -92,9 +92,9 @@ Découvrez ici les Concepts essentiels pour maîtriser les outils du développeu
 
 * * *
 
-## [7\. Challenges : création de Jeux](cours/7-creation-de-jeux.md)
+## [7\. Challenges : création de Jeux](7-creation-de-jeux.md)
 
-[![](images/creer_des_jeux.png)](cours/7-creation-de-jeux.md)
+[![](images/creer_des_jeux.png)](7-creation-de-jeux.md)
 
 _À propos du cours_
 
