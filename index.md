@@ -3,6 +3,8 @@ title: "Accueil"
 date: 2022-02-25
 ---
 
+<nav>{% include navbar.md %}</nav>
+
 ## Bienvenue sur GameLogiq : Apprends à coder tes propres jeux vidéo, gratuitement !
 
 Pas besoin d’être un pro pour commencer ! Avec nos cours gratuits, découvre la programmation et crée tes jeux vidéo pas à pas, même si tu n’as jamais codé.
