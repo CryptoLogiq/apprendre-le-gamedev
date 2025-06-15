@@ -1,6 +1,6 @@
-plugins: jekyll-relative-links
+#theme: jekyll-midnight
 
-theme: jekyll-midnight
+plugins: jekyll-relative-links
 
 relative_links:
   enabled: true
