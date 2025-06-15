@@ -9,7 +9,7 @@ Maintenant que nous savons ce qu'est une Fonction() ! Abordons une solution pour
 
 Syntaxe pour une fonction avec un return :
 
-```
+```lua
 function maFonction()
   return valeur
 end
@@ -17,7 +17,7 @@ end
 
 Exemple d'un return  de valeur fixe :
 
-```
+```lua
 function maFonction()
  return 100
 end
@@ -26,7 +26,6 @@ print( maFonction() )
 ```
 
 sortie console :
-
 ```
 100
 ```
@@ -35,7 +34,7 @@ print() **appelle** la fonction **maFonction()** et celle-ci **retourne** la va
 
 On peut aussi retourner une variable :
 
-```
+```lua
 vieMax = 100
 
 function maFonction()
@@ -46,18 +45,17 @@ print( maFonction() )
 ```
 
 sortie console :
-
 ```
 100
 ```
 
 Bien, ça commence à prendre forme, on va voir comment on peut stocker le return d’une fonction dans une variable.
 
-* * *
+
 
 Syntaxe pour récupérer la Valeur du return  d’une fonction :
 
-```
+```lua
 maVariableAppelante = leReturnDeCetteFonction()
 ```
 
@@ -66,7 +64,7 @@ maVariableAppelante = leReturnDeCetteFonction()
 
 Solution :
 
-```
+```lua
 vieHero = 20
 print(vieHero)
 
@@ -79,7 +77,6 @@ print(vieHero)
 ```
 
 sortie console :
-
 ```
 20 
 100
@@ -95,7 +92,7 @@ Voyons maintenant le return d’un calcul qu’on effectue dans le corps de la f
 
 Démonstration :
 
-```
+```lua
 vieHero = 100
 frappeEnnemi = 10
 
@@ -109,7 +106,6 @@ print(vieHero)
 ```
 
 sortie console :
-
 ```
 90
 ```
@@ -123,13 +119,13 @@ _Solution à la suite… Seulement si vous avez essayé !_
 
 ![](images/loading.png)
 
-* * *
+
 
 ### Solution :
 
 Reprenons les bases des deux fonctions que nous venons de créer :
 
-```
+```lua
 vieHero = 80
 vieMax = 100
 frappeEnnemi = 20
@@ -169,4 +165,4 @@ Plutôt cool non ? =D
 
 **Je vous attends au prochain cours !**
 
-* * *
+

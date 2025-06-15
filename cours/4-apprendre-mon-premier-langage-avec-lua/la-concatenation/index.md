@@ -16,7 +16,7 @@ source : [https://fr.wikipedia.org/wiki/Concat%C3%A9nation](https://www.google.c
 
 Tout d'abord, nous générons quelques variables textes, nombres et booléennes pour préparer nos variables que nous utiliserons pendant ce chapitre :
 
-```
+```lua
 nom = "Nolan "
 prenom = "Bushnell "
 jour = 27
@@ -25,25 +25,24 @@ annee = 1962
 reponse = true
 ```
 
-Avant de vous montrer une concaténation, revoyons déjà comment faire un print contenant plusieurs variables pour vérifier celles-cis avec un seul appel de  **print()  
-**  
+Avant de vous montrer une concaténation, revoyons déjà comment faire un print contenant plusieurs variables pour vérifier celles-cis avec un seul appel de  **print()**
+
 Séparer juste les variables par une virgule  **,** 
 
 Exemple :
 
-```
+```lua
 print(nom, prenom, jour, mois, annee, reponse)
 ```
 
 Sortie console :
-
 ```
 Nolan Bushnell 27 06 1962 true
 ```
 
 Voyons maintenant comment additionner plusieurs string dans une seule variable grâce à la concaténation (concat en anglais).
 
-* * *
+
 
 ## La Concaténation de texte
 
@@ -53,13 +52,13 @@ La concaténation se fait avec deux points  **..**  Voyons concrètement com
 
 Syntaxe :
 
-```
+```lua
 maConcatenation = "mon debut de texte ".."ma suite de texte"
 ```
 
 Exemple avec des variables :
 
-```
+```lua
 nom = "Nolan "
 prenom = "Bushnell "
 jour = 27
@@ -72,7 +71,6 @@ print(nomComplet)
 ```
 
 Sortie console :
-
 ```
 Nolan Bushnell
 ```
@@ -89,13 +87,13 @@ Si la concaténation ne contient que des chiffres, tostring() n’est pas néces
 
 Syntaxe :
 
-```
+```lua
 maVariable = tostring(5)..tostring(10)
 ```
 
 Exemple avec des variables :
 
-```
+```lua
 nom = "Nolan "
 prenom = "Bushnell "
 jour = 27
@@ -108,14 +106,13 @@ print(dateComplete)
 ```
 
 Sortie console :
-
 ```
 27061962
 ```
 
 Vous serez d'accord pour affirmer qu'il est difficile de comprendre qu'il s'agit ici d'une date.
 
-* * *
+
 
 ## La concaténation de texte et de nombre !
 
@@ -131,13 +128,13 @@ Nous devons donc convertir les nombres en texte ! Avec l’utilisation de  tos
 
 Syntaxe :
 
-```
+```lua
 concatenation = "j'ai "..tostring(35).." ans."
 ```
 
 exemple :
 
-```
+```lua
 nom = "Nolan "
 prenom = "Bushnell "
 jour = 27
@@ -150,26 +147,24 @@ print(dateComplete)
 ```
 
 Sortie console :
-
 ```
 27/06/1962
 ```
 
 Un autre exemple avec une phrase complète :
 
-```
+```lua
 Atari = "Atari a été fondé le "..dateComplete..", vous trouverez plus d'information sur : https://fr.wikipedia.org/wiki/Atari"
 
 print(Atari)
 ```
 
 Sortie console :
-
 ```
 Atari a été fondé le 27/06/1962, vous trouverez plus d'information sur : https://fr.wikipedia.org/wiki/Atari
 ```
 
-* * *
+
 
 ## Les Mises en formes Simple
 
@@ -179,13 +174,12 @@ Nous pouvons appliquer des mises en forme simple comme le saut de ligne ou les 
 
 Générons une variable à manipuler :
 
-```
+```lua
 monTexte = "Bonjour comment allez-vous ? Je vais bien merci."
 print(monTexte)
 ```
 
 Sortie console :
-
 ```
 Bonjour comment allez-vous ? Je vais bien merci et vous ?
 ```
@@ -194,13 +188,12 @@ Bonjour comment allez-vous ? Je vais bien merci et vous ?
 
 il s'utilise  avec  \\**n**  dans une variable string :
 
-```
+```lua
 monTexte = "Bonjour comment allez-vous ? \n Je vais bien merci."
 print(monTexte)
 ```
 
 Sortie console :
-
 ```
 Bonjour comment allez-vous ?
    Je vais bien merci.
@@ -213,13 +206,12 @@ Ceci est d’ailleurs valable pour tout autre mise en forme.
 
 correction :
 
-```
+```lua
 monTexte = "Bonjour comment allez-vous ? \nJe vais bien merci."
 print(monTexte)
 ```
 
 Sortie console :
-
 ```
 Bonjour comment allez-vous ?
 Je vais bien merci.
@@ -227,13 +219,12 @@ Je vais bien merci.
 
 pour une meilleure relecture de votre code, utilisons la concaténation avec la mise en forme :
 
-```
+```lua
 monTexte = "Bonjour comment allez-vous ?".."\n".."Je vais bien merci."
 print(monTexte)
 ```
 
 Sortie console :
-
 ```
 Bonjour comment allez-vous ?
 Je vais bien merci.
@@ -249,7 +240,7 @@ il remplace généralement plusieurs espaces.
 
 Préparons une variable :
 
-```
+```lua
 titre = "Titre(1)"
 sujet_1 = "Sujet(1)"
 sujet_2 = "Sujet(2)"
@@ -258,14 +249,13 @@ print(monTexte)
 ```
 
 Sortie console :
-
 ```
 Titre(1)Sujet(1)Sujet(2)
 ```
 
 Les tabulations s’utilisent avec  **\\t**   dans une variable string :
 
-```
+```lua
 titre = "Titre(1)"
 sujet_1 = "Sujet(1)"
 sujet_2 = "Sujet(2)"
@@ -274,7 +264,6 @@ print(monTexte)
 ```
 
 Sortie console :
-
 ```
 Titre(1)   Sujet(1)   Sujet(2)
 ```
@@ -283,7 +272,7 @@ Vous serez d’accord pour dire que les mises en formes sont peu lisibles surtou
 
 Heureusement nous pouvons améliorer cela !
 
-* * *
+
 
 ## Mises en formes multiples, comment ne pas se perdre ?
 
@@ -291,7 +280,7 @@ Avec plusieurs mises en forme, cela devient rapidement assez complexe à lire, c
 
 Exemple :
 
-```
+```lua
 titre = "Titre(1)"
 sujet_1 = "Sujet(1)"
 sujet_2 = "Sujet(2)"
@@ -300,7 +289,6 @@ print(monTexte)
 ```
 
 Sortie console :
-
 ```
 Titre(1)
    Sujet(1)
@@ -313,7 +301,7 @@ De plus le résultat est strictement identique.
 
 - Liste des Mises en forme existantes :
 
-```
+```lua
 "\a"         --(cloche)
 "\b"         --(backspace)
 "\f"         --(saut de page)
@@ -330,7 +318,7 @@ Nous utiliserons principalement   **\\n**  et   **\\t**  dans nos textes.
 
 C'est quand même bien d’avoir examiné d'autres mises en formes !
 
-* * *
+
 
 ## Bonus
 
@@ -338,13 +326,12 @@ Comment afficher les  **guillemets**  dans votre texte… pour cela on peut u
 
 exemple :
 
-```
+```lua
 monTexte = 'maVariable = "mon texte" '
 print(monTexte)
 ```
 
 sortie console :
-
 ```
 maVariable = "mon texte"
 ```
@@ -353,5 +340,3 @@ Je vous laisse expérimenter ces nouvelles notions…
 ![](images/test.png)
 
 **On se retrouve pour la suite au prochain cours !**
-
-* * *

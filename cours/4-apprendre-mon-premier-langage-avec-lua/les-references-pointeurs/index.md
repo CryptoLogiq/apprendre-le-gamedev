@@ -9,7 +9,7 @@ Lorsqu’une table est créée une première référence vers une adresse mémoi
 
 D’ailleurs lorsqu’on print une table, c’est son adresse mémoire qui nous est communiqué :
 
-```
+```lua
 a = {}
 print(a)
 ```
@@ -28,7 +28,7 @@ C’est pour cela qu’on dit qu’une table est une variable complexe, car cont
 ![](images/bloc_memoire.png)  
 Les tables créent un bloc de mémoire partageable :
 
-```
+```lua
 a = {}
 b = a
 print(a)
@@ -36,7 +36,6 @@ print(b)
 ```
 
 sortie console :
-
 ```
 table: 0x1d566da8
 table: 0x1d566da8
@@ -44,7 +43,7 @@ table: 0x1d566da8
 
 **a** et **b** sont bien des **références**, au même espace/bloc mémoire !
 
-* * *
+
 
 ## Utilisation des références
 
@@ -52,7 +51,7 @@ Les références s’utilisent souvent dans des fonctions ou directement dans vo
 
 Je vais vous montrer un exemple assez simple avec une table :
 
-```
+```lua
 carte_identification_du_service_restauration_du_3_eme_etage = {} carte_identification_du_service_restauration_du_3_eme_etage.name = "Dead" carte_identification_du_service_restauration_du_3_eme_etage.firstname = "Pool" carte_identification_du_service_restauration_du_3_eme_etage.numero = 231035130132043 
 
 local a = carte_identification_du_service_restauration_du_3_eme_etage
@@ -61,7 +60,6 @@ print(carte_identification_du_service_restauration_du_3_eme_etage.numero)
 ```
 
 sortie console :
-
 ```
 001001001
 ```
@@ -72,7 +70,7 @@ Ainsi en passant la table en référence vers une variable plus courte ça nous 
 
 Exemple avec une table **game** constituée d’une sous-table **map** et aussi d'**index numériques** :
 
-```
+```lua
 game = {}
 game.map = { 1, 1, 1}
 
@@ -87,7 +85,6 @@ end
 ```
 
 sortie console :
-
 ```
 0
 0
@@ -98,7 +95,7 @@ sortie console :
 
 Un autre exemple avec une fonction :
 
-```
+```lua
 hero = {}
 hero.vie = 10
 hero.vieMax = 100
@@ -127,7 +124,6 @@ print("Après le soins notre hero dispose de "..hero.vie.." pts de vie.")
 ```
 
 sortie console :
-
 ```
 Avant le soins notre hero dispose de 10 pts de vie.
 Après le soins notre hero dispose de 100 pts de vie.
@@ -137,12 +133,10 @@ Après le soins notre hero dispose de 100 pts de vie.
 
 Soit dans notre exemple :
 
-```
+```lua
 pCible == hero
 pEffect == baton.magie.soin
 ```
-
-* * *
 
 - Attention aux manipulation avec références
 
@@ -150,7 +144,7 @@ Les références sont belles et bien les mêmes données modifiées !
 
 Voyons l’exemple suivant :
 
-```
+```lua
 a = {1,1,1}
 b = {a, a, a}
 c = {{1,1,1}, {1,1,1}, {1,1,1}}
@@ -224,5 +218,3 @@ Lorsque la table  **a**  à été modifié la table  **b**  l’est aussi, c
 ![](images/references_simili_folder.png)
 
 **Fin du chapitre !**
-
-* * *

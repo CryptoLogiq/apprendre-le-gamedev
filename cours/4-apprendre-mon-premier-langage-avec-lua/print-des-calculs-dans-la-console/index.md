@@ -9,7 +9,7 @@ Bien maintenant, nous allons faire un petit peu de math (niveau primaire) !
 
 Tels que des additions, soustractions, multiplications et divisions, car la fonction print() permet aussi d’afficher des nombres.
 
-* * *
+
 
 |  **print()** sert à afficher du texte, mais il sait aussi afficher des nombres. |
 | --- |
@@ -20,7 +20,7 @@ Voyez par vous-même : _Dorénavant, je ne mettrais plus les captures d’écran
 
 Avec le temps et la pratique régulière, cela deviendra assez naturel vous verrez ;)
 
-* * *
+
 
 - Les calculs arithmétiques simples
 
@@ -81,7 +81,7 @@ Maintenant que nous savons imprimer du texte, des nombres et des résultats de c
 
 Pourquoi ne pas simuler un petit jeu en texte ?!
 
-* * *
+
 
 #### EXERCICE TP :
 
@@ -100,7 +100,7 @@ Non… Essayez encore un peu, une dernière fois… =)
 
 Non toujours pas, bon c’est pas grave, allez voir et vous devrez essayer de le refaire à nouveau jusqu'à ce que ça fonctionne !
 
-* * *
+
 
 Ma solution que je vous propose :
 
@@ -128,4 +128,4 @@ Félicitations ! Cette première introduction au langage LUA est maintenant ter
 
 **Je vous attends pour la suite sur les bases de LUA où nous aborderons ensemble, point par point l’essentiel pour simuler un vrai petit jeu dans la console !**
 
-* * *
+

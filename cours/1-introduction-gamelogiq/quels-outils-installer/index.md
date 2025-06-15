@@ -41,4 +41,4 @@ Voici une capture d’écran pour voir à quoi ressemble ZeroBrane :
 Une fois paramétré avec le thème sombre :  
 ![](images/zerobrane_sombre.png)
 
-* * *
+

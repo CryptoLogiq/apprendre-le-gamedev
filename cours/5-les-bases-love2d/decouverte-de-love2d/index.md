@@ -35,4 +35,4 @@ Votre toute nouvelle ouvrage à mettre sur votre commode : [https://love2d.org/w
 
 Ajoutez simplement la page en favoris, car vous y reviendrez assez régulièrement...
 
-* * *
+

@@ -56,6 +56,6 @@ Il n’y aura personne pour vous dire que votre calcul est digne d’un niveau p
 
 Si vous pouvez vous relire et comprendre facilement ce que vous avez fait, c’est bien comme ça et largement suffisant !
 
-* * *
+
 
 [Commencer le cours](https://gamelogiq.dev/liste-des-differents-cours/decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement/les-origines-du-jeu-video/)

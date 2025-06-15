@@ -11,7 +11,7 @@ Vous risquez d’avoir des soucis car plusieurs variables pourraient avoir le m�
 
 Solution que l'on a utilisé au début des cours :
 
-```
+```lua
 heroX = 10
 heroY = 15
 heroName = "Cromi" ennemiX = 50
@@ -48,5 +48,3 @@ Avec le temps, vous finirez sûrement par vous poser vous-même la question de c
 Vous trouverez d'autres guides de style sur internet, à vous de choisir celui qui vous convient le mieux.
 
 Le but étant d'avoir la même structure de code, afin de s'y retrouver quelques semaines ou mois plus tard en revenant sur vos anciens projets.
-
-* * *

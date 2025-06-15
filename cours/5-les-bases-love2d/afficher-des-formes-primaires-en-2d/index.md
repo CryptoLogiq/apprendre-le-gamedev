@@ -105,7 +105,7 @@ _**height** = hauteur_
 
 Plus d'infos : [https://fr.wikipedia.org/wiki/Rectangle](https://fr.wikipedia.org/wiki/Rectangle)
 
-* * *
+
 
 love.graphics.rectangle()
 
@@ -127,7 +127,7 @@ love.graphics.rectangle( mode, x, y, width, height, segments )
 
 **`[number](https://love2d.org/wiki/number) segments (nil) --> Facultatif`**    Le nombres de segments (nombre de  points) utiliser pour dessiner les arrondis des coins du rectangle (voir l'exemple ci-dessous).
 
-* * *
+
 
 Exemple Rectangle :
 
@@ -171,7 +171,7 @@ Soit  **M = {x , y, rayon}**
 
 Plus d'infos : [https://fr.wikipedia.org/wiki/Cercle](https://fr.wikipedia.org/wiki/Cercle)
 
-* * *
+
 
 love.graphics.circle()
 
@@ -191,7 +191,7 @@ love.graphics.circle( mode, x, y, radius )
 
 [number](https://love2d.org/wiki/number) `segments --> Facultatif` Le nombres de segments (points) pour dessiner le cercle (voir l'exemple)
 
-* * *
+
 
 Exemple Cercles :
 
@@ -236,7 +236,7 @@ Petit exemple tiré du jeu **Metal Gear Solid** de **Konami** :
 
 On distingue parfaitement les arcs ici, non ?  =)
 
-* * *
+
 
 love.graphics.arc()
 
@@ -260,7 +260,7 @@ love.graphics.arc( drawmode, arctype, x, y, radius, angle1, angle2, segments )
 
 [number](https://love2d.org/wiki/number) `segments (10)` Le nombres de segments (de points) qui sont utilisés pour dessiner l'arc.
 
-* * *
+
 
 **Exemple Arc reprenant comme modèle le croquis de métal gear solid :**
 
@@ -377,4 +377,4 @@ Rendu : **Remarque : L'arcType** est bien facultatif, on note bien que le mode *
 
 - dessiner des arcs de cercles
 
-* * *
+

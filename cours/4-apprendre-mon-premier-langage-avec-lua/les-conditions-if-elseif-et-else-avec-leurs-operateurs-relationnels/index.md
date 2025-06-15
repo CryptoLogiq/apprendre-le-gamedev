@@ -31,7 +31,7 @@ FIN
 
 Syntaxe d’une boucle conditionnelle :
 
-```
+```lua
 if condition then
    -- corps de la boucle conditionnelle
 end
@@ -39,7 +39,7 @@ end
 
 petit exemple simple :
 
-```
+```lua
 condition = true
 test = 0
 
@@ -51,7 +51,6 @@ print(test)
 ```
 
 sortie console :
-
 ```
 1
 ```
@@ -60,7 +59,7 @@ Comme condition vaut true (vrai) donc la boucle s’effectue et exécute le corp
 
 Cependant si nous voulons contrôler par exemple si 5 est plus grand que 3 nous aurons besoin des opérateurs relationnels.
 
-* * *
+
 
 ## Les Opérateurs Relationnels.
 
@@ -85,22 +84,25 @@ Dans un jeu nous voulons contrôler si notre variable de total de pièces ramass
 
 Pseudo-code d’utilisation d’un opérateur relationnel :
 
-| SI totalPieces égale 100 ALORS   \> vieHero vaut vieHero + 1   FIN |
-| --- |
+```
+SI totalPieces égale 100 ALORS
+    vieHero vaut vieHero + 1
+FIN
+```
 
 Syntaxe d’utilisation d’un opérateur relationnel :
 
-```
+```lua
 if totalPieces == 100 then
         vieHero = vieHero + 1
 end
 ```
 
-* * *
+
 
 exemple :
 
-```
+```lua
 totalPieces = 100
 vieHero = 0
 
@@ -112,7 +114,6 @@ print(vieHero)
 ```
 
 sortie console :
-
 ```
 1
 ```
@@ -124,7 +125,7 @@ C’est pratique certes, mais si nous voulons tester plusieurs cas de figures di
 Voyons un autre exemple :  
 le joueur doit posséder une clé pour ouvrir une porte, on veut vérifier si le joueur possède une clef, s’il a une clef en sa possession alors on ouvre la porte et on lui retire sa clef.
 
-```
+```lua
 clef = true
 porteOuverte = false
 
@@ -145,7 +146,6 @@ print("porte ouverte ? "..porteOuverte)
 ```
 
 sortie console :
-
 ```
 Vous possédez la clef ! La porte s'ouvre !
 Pour ouvrir la porte, il vous faut la clef ! porte ouverte ? false
@@ -170,7 +170,7 @@ Voyons leurs Pseudo-code :
 
 Syntaxe boucle conditionnel if, avec un  elseif :
 
-```
+```lua
 if condition1 then -- Si condition1 est vrai alors
   fais ceci
 elseif condition2 then -- Sinon Si condition2 est vrai
@@ -180,7 +180,7 @@ end
 
 Syntaxe boucle conditionnel if, avec un else :
 
-```
+```lua
 if condition1 then -- Si condition1 est vrai alors
   fais ceci
 else -- Sinon
@@ -190,7 +190,7 @@ end
 
 Syntaxe boucle conditionnel if, avec un  elseif et un else :
 
-```
+```lua
 if condition1 then -- Si condition1 est vrai alors
   fais ceci
 elseif condition2 then -- Sinon Si condition2 est vrai
@@ -222,11 +222,11 @@ Solution en cours d'écriture par vous même...
 
 ![](images/loading.png)
 
-* * *
+
 
 ##### correction/solution :
 
-```
+```lua
 clef = true
 porteOuverte = false
 
@@ -243,7 +243,6 @@ print("porte ouverte ? "..porteOuverte)
 ```
 
 sortie console :
-
 ```
 Vous possédez la clef ! La porte s'ouvre !
 porte ouverte ? true
@@ -255,7 +254,7 @@ _Il existe également une particularité très intéressante avec elseif, c’es
 
 exemple :
 
-```
+```lua
 if condition then
  -- fais ca
 elseif condition2 then
@@ -275,7 +274,7 @@ On peut mettre des boucles conditionnelles IF dans une autre boucle conditionnel
 
 On appelle ça **l'imbrication**. Voyons cela !
 
-* * *
+
 
 ## L'imbrication
 
@@ -286,7 +285,7 @@ Imaginons un exemple avec notre héros qui collecte des pièces et lorsque celui
   
 exemple :
 
-```
+```lua
 totalPieces = 100
 vie = 0
 
@@ -302,7 +301,6 @@ print("Vies : "..vie)
 ```
 
 sortie console :
-
 ```
 Héro a gagné sa première vie, bravo !
 
@@ -317,7 +315,7 @@ Certes c’est super pratique, mais cette méthode d’écriture peut devenir ra
 
 C’est pourquoi il existe des opérateurs logiques : **AND** ,  **OR** et **NOT**.
 
-* * *
+
 
 ## Les Opérateurs Logiques AND , OR et NOT
 
@@ -330,7 +328,7 @@ Pseudo-Code avec AND :
 
 Syntaxe d’utilisation avec AND :
 
-```
+```lua
 if condition1 and condition2 then
 end
 ```
@@ -344,7 +342,7 @@ Pseudo-Code avec OR :
 
 Syntaxe d’utilisation avec OR :
 
-```
+```lua
 if condition1 or condition2 then
 end
 ```
@@ -358,12 +356,12 @@ Syntaxe d’utilisation avec NOT :
 
 Syntaxe d’utilisation avec NOT :
 
-```
+```lua
 if condition1 not condition2 then
 end
 ```
 
-* * *
+
 
 - Les priorités logiques
 
@@ -374,7 +372,7 @@ end
 
 Exemple :
 
-```
+```lua
 10 or 20  --> 10
 10 or false  --> 10
 nil or "a"  --> "a"
@@ -386,7 +384,7 @@ false or nil  --> nil
 
 _source : [https://wxlua.developpez.com/tutoriels/lua/general/cours-complet/#LII-H](https://www.google.com/url?q=https://wxlua.developpez.com/tutoriels/lua/general/cours-complet/%23LII-H&sa=D&ust=1600806468720000&usg=AOvVaw3s8PobtaQuLBH7nG4dOiha)_
 
-* * *
+
 
 - Exercice
 
@@ -397,11 +395,11 @@ Solution...
 
 ![](images/loading.png)
 
-* * *
+
 
 ##### Solution :
 
-```
+```lua
 totalPieces = 100
 vie = 0
 
@@ -415,7 +413,6 @@ print("Vies : "..vie)
 ```
 
 sortie console :
-
 ```
 Héro a gagné sa première vie, bravo ! Pièces : 100
 Vies : 1
@@ -432,11 +429,11 @@ Solution...
 
 ![](images/loading.png)
 
-* * *
+
 
 ##### Solution suite :
 
-```
+```lua
 totalPieces = 35
 bonusVieSup  = true
 vie = 0
@@ -468,11 +465,11 @@ Solution ...
 
 ![](images/loading.png)
 
-* * *
+
 
 ##### Solution finale :
 
-```
+```lua
 totalPieces = 100
 heroMort = false
 vie = 0
@@ -487,7 +484,6 @@ print("Vies : "..vie)
 ```
 
 sortie console :
-
 ```
 Héro a gagné sa première vie, bravo ! Pièces : 35
 Vies : 1Héro a gagné sa première vie, bravo ! Pièces : 35
@@ -507,19 +503,19 @@ Quand la valeur de la constante est négative, on dit alors qu’il s’agit d�
 
 exemple d’une constante positive :
 
-```
+```lua
 CONSTANTE = 1
 ```
 
 exemple d’une constante négative :
 
-```
+```lua
 CONSTANTE = -1
 ```
 
 On écrit toujours les constante en majuscule, pour nous rappeler qu’il ne faut pas les modifier !
 
-* * *
+
 
 ## Bonus : L'incrémentation et la décrémentation
 
@@ -528,7 +524,7 @@ Cette valeur constante s’applique alors à chaque exécution.
 
 exemple, on compte des bonbons par pile de 1 (1 étant la constante) :
 
-```
+```lua
 bonbon = 0
 bonbon = bonbon + 1
 bonbon = bonbon + 1
@@ -537,7 +533,6 @@ print(bonbon)
 ```
 
 sortie console :
-
 ```
 3
 ```
@@ -561,4 +556,4 @@ Toujours dans l’exemple d’un jeu, lorsque le Héros meurt, son total de vie 
 
 **Maintenant, donnons-nous rendez-vous au prochain cours sur les Arguments de Fonction.**
 
-* * *
+

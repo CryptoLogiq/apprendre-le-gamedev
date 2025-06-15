@@ -45,7 +45,7 @@ _Le bloc peut être le programme, une fonction, une boucle ou le fichier ou elle
 
 _info :  L’imbrication est un sous-bloc d’un bloc parent._
 
-* * *
+
 
 ## La Portée LOCAL des Variables
 
@@ -53,7 +53,7 @@ Pour qu’une variable bénéficie de la portée d’un bloc, Elle doit être in
 
 Syntaxe :
 
-```
+```lua
 local maVariableLocal = 10
 ```
 
@@ -61,7 +61,7 @@ La portée d’une variable locale est vivante uniquement dans le bloc et ses so
 
 Exemple simple d’une portée de fonction :
 
-```
+```lua
 local heroName = "Cromi"
 
 function printName()
@@ -75,7 +75,6 @@ print(heroName)
 ```
 
 sortie console :
-
 ```
 Izac Cromi
 ```
@@ -96,7 +95,7 @@ Si c'est assez flou, pour vous, je ne peux que vous inciter à tester de vous-m�
 
 **heroName** `= "Izac"` n'existe donc que dans la fonction !
 
-* * *
+
 
 ## La Portée GLOBAL des Variables
 
@@ -106,7 +105,7 @@ Ainsi les variables globales sont accessibles en dehors des blocs et même d’u
 
 Les variables globales sont celles initialisées par défaut si on ne met rien avant leurs déclarations :
 
-```
+```lua
 maVariableGlobal = 10 -- ceci est une déclaration de variable globale
 ```
 
@@ -125,4 +124,4 @@ Les variables locales sont donc à prioriser la plupart du temps. Déjà, car on
 
 **Fin de ce chapitre, passons à la suite !**
 
-* * *
+

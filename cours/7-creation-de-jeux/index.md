@@ -9,8 +9,8 @@ Vous trouverez ici différents types de jeux pour mettre en pratique les concept
 
 Ils sont classés selon la difficulté de réalisation de **facile**, **intermédiaire** à **Expert**.
 
-* * *
+
 
 \[subpages\]
 
-* * *
+

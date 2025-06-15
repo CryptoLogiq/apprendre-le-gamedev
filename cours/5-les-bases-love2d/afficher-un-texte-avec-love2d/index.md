@@ -29,7 +29,7 @@ Fin - Vous devriez avoir ceci :
 
 ![](images/hello_world_love2d-1024x655.png)
 
-* * *
+
 
 - Analysons ce que nous avons fait !
 
@@ -61,4 +61,4 @@ Plus d’infos : [https://love2d.org/wiki/love.graphics.print](https://www.googl
 
 Nous pouvons remarquer que l'on peut mettre également en paramètres les positions X et Y.
 
-* * *
+

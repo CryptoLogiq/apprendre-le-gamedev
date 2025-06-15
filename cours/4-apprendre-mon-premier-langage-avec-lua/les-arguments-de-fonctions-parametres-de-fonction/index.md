@@ -15,21 +15,21 @@ Les arguments sont parfois nommés paramètres de fonction. Ces arguments servir
 
 Syntaxe d’une fonction avec 1 argument :
 
-```
+```lua
 function maFonction(argument) -- avec 1 argument
 end
 ```
 
 Syntaxe d’une fonction avec 2 arguments :
 
-```
+```lua
 function maFonction(argument1, argument2) -- avec 2 arguments
 end
 ```
 
 Syntaxe d’une fonction avec 3 arguments :
 
-```
+```lua
 function maFonction(argument1, argument2, argument3) -- etc.
 end
 ```
@@ -38,11 +38,11 @@ Les arguments sont utilisés par la fonction pour effectuer des manipulations de
 
 Les arguments sont séparés par des  **,**  virgules.
 
-* * *
+
 
 Voyons un exemple simple, nous allons créer une fonction addition :
 
-```
+```lua
 function addition(a, b)
      print(a + b)
 end
@@ -50,7 +50,7 @@ end
 
 Utilisons-la pour voir comment ça fonctionne :
 
-```
+```lua
 valeur1 = 2
 valeur2 = 3
 
@@ -62,7 +62,6 @@ addition(valeur1, valeur2)
 ```
 
 sortie console :
-
 ```
 5
 ```
@@ -79,7 +78,7 @@ sortie console :
 
 Essayons avec un return :
 
-```
+```lua
 valeur1 = 2
 valeur2 = 3
 total = 0
@@ -93,20 +92,19 @@ print(total)
 ```
 
 sortie console :
-
 ```
 5
 ```
 
 Cool ça fonctionne !
 
-* * *
+
 
 ## La portée des arguments dans une fonction
 
 Les arguments existent uniquement à l'intérieur d’une fonction  car si l’on veut print(a) ou print(b) en dehors de la fonction c’est impossible.
 
-```
+```lua
 valeur1 = 10
 valeur2 = 5
 function addition(a, b)
@@ -117,7 +115,6 @@ print(a)
 ```
 
 sortie console :
-
 ```
 nil
 ```
@@ -132,11 +129,11 @@ On dit alors que l’argument **a** est  **local à la fonction** addition()�
 
 À quoi peut bien nous servir qu’un argument n’existe qu'à l'intérieur d’une fonction et que cet argument possède une portée… ?
 
-* * *
+
 
 Démonstration :
 
-```
+```lua
 a = 10
 b = 20
 c = 0
@@ -153,7 +150,6 @@ print("en dehors de la fonction et après addition(a, b)".."\n", "a = "..a, "b =
 ```
 
 sortie console :
-
 ```
 en dehors de la fonction et avant addition(a, b) a = 10           b = 20        c = 0         
 
@@ -170,7 +166,7 @@ De plus comme elles sont **local** à la fonction on peut donc les manipuler san
 
 _Nous aborderons la portée des variables plus en profondeur dans un chapitre ultérieur ;)_
 
-* * *
+
 
 ## Exercice 1
 
@@ -181,11 +177,11 @@ Attente de la Solution …
 
 ![](images/loading.png)
 
-* * *
+
 
 ##### Solution Exercice 1
 
-```
+```lua
 vieHero = 100
 frappeEnnemi = 20
 
@@ -201,7 +197,6 @@ print(vieHero)
 ```
 
 sortie console :
-
 ```
 la cible dispose de 100 points de vie et subit une attaque de 20 points de dégâts. la cible a désormais 80 points de vie. 80
 ```
@@ -212,7 +207,7 @@ Allons encore plus loin pour démontrer l’utilité des arguments et de son uti
 
 Pour cela on va faire un nouvel exercice ensemble =)
 
-* * *
+
 
 ## Exercice 2
 
@@ -223,11 +218,11 @@ Solution de l'exercice en chargement…
 
 ![](images/loading.png)
 
-* * *
+
 
 ##### Solution Exercice 2
 
-```
+```lua
 vieHero = 100
 frappeHero = 30
 --
@@ -250,7 +245,6 @@ vieEnnemi = Attaque(vieEnnemi, frappeHero)
 ```
 
 sortie console :
-
 ```
 attaque du héro la cible dispose de 100 points de vie et subit une attaque de 20 points de dégâts. la cible a désormais 80 points de vie. attaque de l'ennemi la cible dispose de 60 points de vie et subit une attaque de 30 points de dégâts. la cible a désormais 30 points de vie.
 ```
@@ -266,7 +260,7 @@ Si vous avez réussi, c'est excellent ! Si ce n’est pas le cas pas de panique 
 
 Exemple avec plusieurs arguments :
 
-```
+```lua
 heroName = "Arthur"
 heroVie = 100
 heroFrappe = 20
@@ -288,7 +282,6 @@ ennemiVie = Attaque(ennemiName, ennemiVie,     heroName,      heroFrappe)
 ```
 
 sortie console :
-
 ```
 Arthur subit une attaque par Slime d'un montant de 10 points de dégâts. Arthur a désormais 90 points de vie. Slime subit une attaque par Arthur d'un montant de 20 points de dégâts. Slime a désormais 20 points de vie.
 ```
@@ -298,5 +291,3 @@ C’est simple et ça fonctionne !
 Pour l'instant c’est tout ce que l’on veut… !
 
 **Bien Maintenant que vous êtes arrivés jusqu’ici ! Rendez-vous au prochain cours =)**
-
-* * *

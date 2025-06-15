@@ -47,7 +47,7 @@ Note : Je l’utilise moi-même personnellement lorsque je veux coder en Lua, c
 
 ![](images/zerobrane_sombre-1024x576.png)
 
-* * *
+
 
 ## Installation de ZeroBrane (Windows)
 
@@ -160,7 +160,7 @@ Pour changer de thème, il vous suffit de cliquer sur son lien dans le fichier u
 
 ![](images/themes.gif)
 
-* * *
+
 
 # Découverte de l’outil de développement
 

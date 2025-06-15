@@ -11,7 +11,7 @@ Le bloc est interrompu par le break peu importe son niveau d’imbrication, par 
 
 Exemple :
 
-```
+```lua
 nbLignes = 5
 nbColonnes = 5
 --
@@ -39,7 +39,6 @@ print("playerColonne : "..playerColonne.."n".."playerLigne  : "..playerLigne)
 ```
 
 sortie console :
-
 ```
 playerColonne : 1
 playerLigne  : 1
@@ -47,7 +46,7 @@ playerLigne  : 1
 
 La **boucle FOR x** est **Arrêté** par le **break**, puis le code continue d'exécuter la fonction et exécute donc la prochaine **boucle FOR y**.
 
-* * *
+
 
 ## **Return**
 
@@ -55,7 +54,7 @@ Le return, retourne le résultat d’une fonction et la quitte tout simplement.
 
 Voyons la différence avec la même fonction avec l’utilisation de return :
 
-```
+```lua
 nbLignes = 5
 nbColonnes = 5
 --
@@ -83,7 +82,6 @@ print("playerColonne : "..playerColonne.."n".."playerLigne  : "..playerLigne)
 ```
 
 sortie console :
-
 ```
 playerColonne : 1
 playerLigne  : 5
@@ -97,7 +95,7 @@ Nous pouvons par exemple créer deux fonctions qui return la bonne position lors
 
 Exemple :
 
-```
+```lua
 nbLignes = 5
 nbColonnes = 5
 --
@@ -126,17 +124,16 @@ print("playerColonne : "..playerColonne.."n".."playerLigne  : "..playerLigne)
 ```
 
 sortie console :
-
 ```
 playerColonne : 1
 playerLigne  : 1
 ```
 
-* * *
+
 
 Un autre exemple avec un return de type booléen :
 
-```
+```lua
 heroX = 10
 heroY = -500
 
@@ -167,11 +164,8 @@ end
 ```
 
 sortie console :
-
 ```
 ATTENTION ! héro est en dehors de l'écran
 ```
 
 **Fin du chapitre, on se retrouve pour la suite =)**
-
-* * *

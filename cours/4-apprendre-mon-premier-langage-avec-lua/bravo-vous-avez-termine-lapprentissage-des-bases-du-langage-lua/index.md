@@ -3,7 +3,7 @@ title: "Bravo ! Vous avez terminé l'apprentissage des bases du langage Lua !"
 date: 2022-02-24
 ---
 
-* * *
+
 
 ## La théorie et la pratique…
 
@@ -34,23 +34,23 @@ Avoir des bonnes habitudes de nommages de ces variables…
 
 Exemple nommage d’une variable Globales :
 
-```
+```lua
 MaGlobale = 10
 ```
 
 Il est conseillé de nommer ses variables globales avec comme première lettre de son nom en Majuscule
 
-* * *
+
 
 Pour les variables locales, on commence toujours par une minuscule :
 
-```
+```lua
 maLocal = 20
 ```
 
 Une variable constante, tout en MAJUSCULE :
 
-```
+```lua
 MA_CONSTANTE = 30
 ```
 
@@ -66,5 +66,3 @@ Comment savoir écrire son code proprement !
 
   
 [Bonus Lua : Les guides de styles](https://gamelogiq.dev/liste-des-differents-cours/4-apprendre-mon-premier-langage-avec-lua-les-bases-lua/bonus-2-les-guides-de-styles-lua/ "Bonus Lua : Les guides de styles")
-
-* * *

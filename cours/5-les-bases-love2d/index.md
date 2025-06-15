@@ -18,4 +18,4 @@ Liste des chapitres de ce cours :
 
 \[subpages\]
 
-* * *
+

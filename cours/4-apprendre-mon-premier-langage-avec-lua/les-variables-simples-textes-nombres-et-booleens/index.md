@@ -93,7 +93,7 @@ _Les noms de variables sont libres, vous pouvez alors la nommer comme bon vous s
 
 **until    while    function**
 
-* * *
+
 
 ## Les variables de Nombres (number)
 
@@ -139,7 +139,7 @@ Ceci est bien pratique, surtout lorsque l'on veut trouver une erreur ou faire de
 
 La virgule indique une autre instruction à la fonction print(), celle-ci ajoute avec un espace entre les valeurs les plusieurs variables qu'on lui demande de nous afficher dans la console.
 
-* * *
+
 
 ### **_! ATTENTION !_**  
 
@@ -433,7 +433,7 @@ Sortie console :
 | nil |
 | --- |
 
-* * *
+
 
 ## Les 8 types de variables LUA qui existent :
 
@@ -464,7 +464,7 @@ Puis celles que nous n’aborderons pas dans les bases… (niveau avancées) :
 | Créer et Imprimer chacun des types de variables que nous venons de voir ! type texte (string) type nombres (number) type décimal (number) type booléen (boolean), une de valeur Vrai et une autre avec une valeur Fausse type nil (vide) |
 | --- |
 
-* * *
+
 
 #### Solution TP :
 
@@ -493,7 +493,7 @@ Si vous avez réussi tant mieux, sinon, relisez attentivement la solution pour c
 
 Copier un code ne sert à rien, il vous faut le comprendre et le taper vous-même pour bien l’assimiler. C’est très important ! ! !
 
-* * *
+
 
 ## Bonus
 
@@ -555,7 +555,7 @@ C'est assez pratique pour détailler votre code =)
 
 La syntaxe --\[\[  \]\]-- ouvre et ferme un commentaire sur une ou plusieurs lignes.
 
-* * *
+
 
 ##### On peut connaître le type d'une variable :
 
@@ -582,7 +582,7 @@ Cette valeur est une chaîne de caractère (string).
 
 C’est pourquoi nous pouvons print() le type() car il s’agit d’un texte (string).
 
-* * *
+
 
 ##### En Lua, on peut changer le type d'une variable très facilement :
 
@@ -616,4 +616,4 @@ C’est pratique, mais ça peut facilement vous induire en erreur alors attentio
 
 **Maintenant, rendez-vous au prochain chapitre où nous verrons comment mettre bout à bout plusieurs chaînes de caractères (des string) dans une variable.**
 
-* * *
+

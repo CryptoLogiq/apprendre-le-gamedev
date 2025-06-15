@@ -22,7 +22,7 @@ Nous vous conseillons l’installation de l’application qui se comportera comm
 
 L’inscription au service Discord est totalement gratuite.
 
-* * *
+
 
 ## Comment me contacter / avoir de l'aide ?  
 C'est simple, venez sur notre Discord =)
@@ -33,11 +33,11 @@ Ce discord accueil nos membres qui peuvent s'entraidé, partager leurs projets, 
   
 Voici le lien vers notre Discord : [Passion Game & dev®](https://discord.gg/42RDYbcqNZ).
 
-* * *
+
 
 ### Les Logiciels gratuits recommandés pour échanger sur discord vos captures d’écran :
 
-* * *
+
 
 [Outils Capture d’écran](https://support.microsoft.com/fr-fr/windows/utiliser-l-outil-capture-d-%C3%A9cran-pour-effectuer-des-captures-d-%C3%A9cran-00246869-1843-655f-f220-97299b865f6b) :
 
@@ -47,7 +47,7 @@ Logiciel intégré à Windows depuis Windows 7.
 
 Il permet de capturer des fenêtres, l’écran ou un carré de sélection de votre écran pour partager facilement une capture de votre écran.
 
-* * *
+
 
 [ScreenToGif](https://www.screentogif.com/) :
 

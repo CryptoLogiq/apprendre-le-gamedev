@@ -9,13 +9,13 @@ On a vu :
 
 - les **type(string)**
 
-```
+```lua
 monTexte = "texte"
 ```
 
 - les **type(number)**
 
-```
+```lua
 monNombreentier = 9
 -- et
 monNombreDecimal = 9.50
@@ -23,7 +23,7 @@ monNombreDecimal = 9.50
 
 - les **type(boolean)** true ou false
 
-```
+```lua
 monBool = true
 -- ou
 monBool = false
@@ -32,7 +32,7 @@ monBool = false
 
 - les **type(nil)** car elle est vide (valeur d'une variable par défaut)
 
-```
+```lua
 maVariable = nil
 -- ou
 monAutreVariable
@@ -46,7 +46,7 @@ Il existe deux écritures différentes pour créer une fonction, cependant celle
 
 Syntaxe (recommandée) :
 
-```
+```lua
 function maFonction()
 -- contenu de la fonction
 end
@@ -54,7 +54,7 @@ end
 
 Syntaxe équivalente :
 
-```
+```lua
 maFonction = function()
 -- contenu de la fonction
 end
@@ -66,14 +66,13 @@ Nous utiliserons la première écriture, car c’est l’écriture recommandée 
 
 Vérification du type de la variable :
 
-```
+```lua
 function maFonction()
 end
 print( type(maFonction) )
 ```
 
 sortie console :
-
 ```
 function
 ```
@@ -90,7 +89,7 @@ Commençons par créer le bloc de la fonction.
 
 Syntaxe :
 
-```
+```lua
 function imprimeVariables()
 end
 ```
@@ -105,7 +104,7 @@ Le corps de la fonction représente ce qui se situe dans la fonction, le corps d
 
 Exemple :
 
-```
+```lua
 function imprimeVariables() -- début de la fonction
 
 -- ici sera exécuté le corps de la fonction
@@ -113,7 +112,7 @@ function imprimeVariables() -- début de la fonction
 end -- fin de la fonction
 ```
 
-* * *
+
 
 ## Utiliser une fonction !
 
@@ -121,7 +120,7 @@ Pour utiliser notre fonction, nous allons faire ce qu’on appelle un appel de f
 
 Syntaxe d’appel de fonction :
 
-```
+```lua
 imprimeVariables()
 ```
 
@@ -137,7 +136,7 @@ Il va aussi nous falloir initialiser ces deux variables à afficher.
 
 Exemple :
 
-```
+```lua
 prenom = "Mario"
 nom = "Bros"
 
@@ -152,7 +151,6 @@ imprimeVariables() -- appel de la fonction
 ```
 
 sortie console :
-
 ```
 Mario Bros
 ```
@@ -161,7 +159,7 @@ Cependant Il reste une chose importante à savoir c’est que le code contenu da
 
 Pendant cette première lecture, il garde en mémoire l’emplacement des fonctions qu’il a vues !
 
-* * *
+
 
 ## Analysons ce qu’il s’est produit !
 
@@ -211,7 +209,7 @@ _! entre l’étape 2 et 3, il crée la fonction **imprimeVariables****()** !
 
 Dans l’exemple suivant, nous avons un Héros qui subit une attaque d’un ennemi.
 
-```
+```lua
 vieHero = 100
 frappeEnnemi = 10
 
@@ -228,7 +226,6 @@ Attaque()
 ```
 
 sortie console :
-
 ```
 90
 90
@@ -238,7 +235,7 @@ _Le print() effectue le calcul pour l’impression, mais ne modifie pas les vale
 
 Alors corrigeons cela :
 
-```
+```lua
 vieHero = 100
 frappeEnnemi = 10
 
@@ -255,7 +252,6 @@ Attaque()
 ```
 
 sortie console :
-
 ```
 100
 90
@@ -265,4 +261,4 @@ sortie console :
 
 De cette manière la variable est bien modifiée !
 
-* * *
+

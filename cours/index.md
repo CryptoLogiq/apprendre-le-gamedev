@@ -23,7 +23,7 @@ Bon apprentissage à tous.
 
 Découvrir en quoi consiste la création de jeux vidéo, ses origines et les outils qu'on dispose pour les réaliser.
 
-* * *
+
 
 ## **[2\. Installation de mon premier Outil (IDE)](installation-love2d-et-parametrage-de-lide-zerobrane/index.md)**
 
@@ -33,7 +33,7 @@ Découvrir en quoi consiste la création de jeux vidéo, ses origines et les out
 
 Guide d'installation pas à pas de votre environnement de travail.
 
-* * *
+
 
 ## **[3\. Les Notions en Mathématique Conseillé pour le Game Developpement](3-les-mathematiques-les-bases-en-gamedev/index.md)**
 
@@ -55,7 +55,7 @@ Le contenu a été sélectionné avec les critères de choix suivants :
 
 - **Cours, exemples et exercices**
 
-* * *
+
 
 ## **[4\. Apprendre Mon Premier Langage](4-apprendre-mon-premier-langage-avec-lua-les-bases-lua/index.md)**
 
@@ -65,7 +65,7 @@ Le contenu a été sélectionné avec les critères de choix suivants :
 
 Dans ce cours, vous apprendrez les **bases du langage Lua** qui vont permettront de créer facilement vos futurs jeux vidéo.
 
-* * *
+
 
 ## **[5\. Mon Premier Framework avec Lua et Love2D](5-mon-premier-framework-avec-lua-et-love2d-les-bases-love2d/index.md)**
 
@@ -81,7 +81,7 @@ Tout cela est condensé dans Love2D qui a pour objectif de simplifier l’access
 
 Love2D est alors capable d’afficher du texte, de charger des polices, de charger des sons, des musiques, de charger des images et de les afficher, de les manipuler, de gérer plusieurs formats images, audio ou vidéo, de gérer les entrées du clavier, des manettes, des joysticks, il possède des ajouts de formules mathématiques simplifiés, permet de créer une simulation de la physique en 2D, permet la gestion du temps simplifié, de gérer des connexions réseau, etc.
 
-* * *
+
 
 ## **[6\. Les Concepts indispensables du GameDevelloper](6-les-concepts-essentiels/ "6. Les Concepts indispensables du GameDevelloper")**
 
@@ -91,7 +91,7 @@ Love2D est alors capable d’afficher du texte, de charger des polices, de charg
 
 Découvrez ici les Concepts essentiels pour maîtriser les outils du développeur utilisés dans la conception de Jeux Vidéo avec des jeux prototype pour apprendre en s'amusant.
 
-* * *
+
 
 ## [7\. Challenges : création de Jeux](7-creation-de-jeux.md)
 
@@ -101,4 +101,4 @@ _À propos du cours_
 
 Venez tester vos connaissances, comprendre la logique de certains jeux tout en mettant en pratique les concepts qu'on a appris.
 
-* * *
+

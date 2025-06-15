@@ -27,14 +27,14 @@ Pseudo-code Boucle While :
 
 Syntaxe :
 
-```
+```lua
 while condition do
 end
 ```
 
 exemple :
 
-```
+```lua
 pieces = 0
 
 while pieces < 100 do
@@ -45,7 +45,6 @@ print(pieces)
 ```
 
 sortie console :
-
 ```
 100
 ```
@@ -54,7 +53,7 @@ La boucle s’est exécuté tant que **pieces** était encore inférieur à 100,
 
 La boucle while ne s'exécute que SI la condition est VRAIE exemple :
 
-```
+```lua
 pieces = 0
 
 while pieces > 0 do
@@ -65,7 +64,6 @@ print(pieces)
 ```
 
 sortie console :
-
 ```
 0
 ```
@@ -74,7 +72,7 @@ Comme **pieces** n’est pas supérieur à 0 **la boucle ne s’est pas exécut�
 
 Un exemple avec l'utilisation d’un booléen :
 
-```
+```lua
 loop = true
 pieces = 0
 
@@ -89,14 +87,13 @@ print(pieces)
 ```
 
 sortie console :
-
 ```
 100
 ```
 
 Tant que **loop** vaut true, la boucle continue et on a mis une condition qui dit que **si pièces est égale à 100 alors loop vaut false**, ainsi la boucle peut s’arrêter.
 
-* * *
+
 
 ## La Boucle Repeat Until
 
@@ -112,14 +109,14 @@ Pseudo-code Boucle While :
 
 Syntaxe :
 
-```
+```lua
 repeat
 until condition
 ```
 
 exemple :
 
-```
+```lua
 pieces = 0
 
 repeat
@@ -130,7 +127,6 @@ print(pieces)
 ```
 
 sortie console :
-
 ```
 100
 ```
@@ -139,7 +135,7 @@ Comme vous pouvez le remarquer c’est assez semblable à une boucle While, cepe
 
 exemple :
 
-```
+```lua
 pieces = 0
 
 repeat
@@ -150,7 +146,6 @@ print(pieces)
 ```
 
 sortie console :
-
 ```
 -1
 ```
@@ -172,13 +167,13 @@ On préférera toujours une alternative avec une boucle FOR seulement si cela es
 
 _**Comment ? Vous voulez vraiment un exemple !?**_
 
-* * *
+
 
 Bon d’accord, mais **ATTENTION** !
 
 **_exemple à ne surtout pas refaire dans vos jeux ! ! !_**
 
-```
+```lua
 pieces = 0
 
 repeat
@@ -197,4 +192,4 @@ Donc à utiliser avec précaution :D
 
 **Rendez-vous au cours suivant !**
 
-* * *
+

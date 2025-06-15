@@ -40,7 +40,7 @@ Pseudo-code d’une boucle FOR :
 
 Syntaxe d’une boucle FOR :
 
-```
+```lua
 for compteur = 1, 3, 1 do
 end
 ```
@@ -48,7 +48,7 @@ end
 On dit que la **valeur constante donne la vitesse de pas**.  
 Ici on a donc une _Valeur\_de\_Pas = 1._
 
-* * *
+
 
 Voici concrètement ce qu’il se passe et que nous ne voyons pas :
 
@@ -70,14 +70,13 @@ end -- compteur vaut 3 alors j'ai terminé la boucle !
 
 Testons la boucle avec un print pour vérifier la valeur de compteur :
 
-```
+```lua
 for compteur = 1, 3, 1 do 
  print("compteur : "..compteur)
 end
 ```
 
 sortie console :
-
 ```
 compteur :  1 compteur :  2 compteur :  3
 ```
@@ -86,7 +85,7 @@ La boucle s’exécute bien 3 fois !
 
 Exemple pour ajouter 3 x 10 pièces au total du Héros (30 pièces de plus) :
 
-```
+```lua
 total = 0
 
 for compteur = 1, 3, 1 do 
@@ -97,7 +96,6 @@ print(total)
 ```
 
 sortie console :
-
 ```
 30
 ```
@@ -106,7 +104,7 @@ Bien ça fonctionne avec nos variables, Cool !
 
 Reprenons l’exemple avec les pièces, mais cette fois avec une valeur constante négative :
 
-```
+```lua
 total = 0
 
 for compteur = 3, 1, -1 do
@@ -118,7 +116,6 @@ print(total)
 ```
 
 sortie console :
-
 ```
 compteur :  3 compteur :  2 compteur :  1
 30
@@ -130,7 +127,7 @@ Nous pouvons bien **incrémenter** et **décrémenter** notre valeur de départ 
 
 Que se passe-t-il **SI** l'on change la valeur de la constante **au-delà de 1** :
 
-```
+```lua
 total = 0
 
 for compteur = 1, 3, 2 do 
@@ -141,7 +138,6 @@ print(total)
 ```
 
 sortie console :
-
 ```
 20
 ```
@@ -169,7 +165,7 @@ Généralement on utilise 1 ou -1 car c’est plus simple, mais on peut être am
 
 C’est tellement rare, que du coup on peut simplifier l’écriture comme ceci :
 
-```
+```lua
 for compteur = 1, 3 do
 end
 ```
@@ -180,14 +176,13 @@ Plutôt pratique non =)
 
 exemple :
 
-```
+```lua
 for boucle = 1, 3 do 
  print("boucle : "..boucle )
 end
 ```
 
 sortie console :
-
 ```
 boucle :  1 boucle :  2 boucle :  3
 ```
@@ -205,11 +200,11 @@ Solution . . .
 
 ![](images/loading.png)
 
-* * *
+
 
 Solution :
 
-```
+```lua
 score = 0
 print("initialisation de score, score vaut " .. score.." pts.")
 print()
@@ -224,7 +219,6 @@ print("la boucle est finie, score vaut désormais : "..score.." pts.")
 ```
 
 sortie console :
-
 ```
 initialisation de score, score vaut 0 pts. boucle n°1, score vaut : 10 pts.
 boucle n°2, score vaut : 20 pts.
@@ -242,7 +236,7 @@ Vous aviez réussi ? =)
 
 Non ? Voici un autre exemple d’utilisation d’une boucle FOR :
 
-```
+```lua
 texte = ""
 
 for i = 1, 10 do
@@ -253,7 +247,6 @@ print(texte)
 ```
 
 sortie console :
-
 ```
 ##############################
 ```
@@ -266,7 +259,7 @@ Hors celle-ci n’est pas encore dans le corps (bloc) de la boucle FOR !
 
 le corps de notre boucle se situe entre le DO ... et le ... END
 
-```
+```lua
 texte = ""
 nbDieze = 30
 
@@ -278,9 +271,9 @@ print(texte)
 ```
 
 sortie console :
-
-| ############################## |
-| --- |
+```
+##############################
+```
 
 _Ce qu’il faut retenir_
 
@@ -292,7 +285,7 @@ Les valeurs de départ et de fin peut être une copie de valeur d'une de vos var
 
 Démonstration :
 
-```
+```lua
 texte = ""
 nbDieze = 30
 start = 1
@@ -306,9 +299,10 @@ print(start)
 ```
 
 sortie console :
-
-| ##############################   1 |
-| --- |
+```
+##############################
+1
+```
 
 start vaut bien toujours 1, la boucle n'a fait que copié la valeur de start dans sa propre boucle porur s'exécuter.
 
@@ -326,11 +320,11 @@ Solution ?
 
 ![](images/loading.png)
 
-* * *
+
 
 solution exercice 2 :
 
-```
+```lua
 totalPieces = 0
 vieHero = 0
 
@@ -347,7 +341,6 @@ print("Héro possède "..totalPieces.." pièces et "..vieHero.." vie.")
 ```
 
 sortie console :
-
 ```
 Héro a atteint un total de 100 pièces ! il gagne une vie.
 Héro possède 0 pièces et 1 vie.
@@ -362,11 +355,11 @@ Solution…
 
 ![](images/loading.png)
 
-* * *
+
 
 Ma solution à l'exercice 2 :
 
-```
+```lua
 totalPieces = 0
 viesHero = 0
 nbEtoiles = 0
@@ -398,14 +391,10 @@ for i = 1, 5 do
 
 end
 
-print("héro possède désormais "..totalPieces.." pièces et "..viesHero.." vies. Ainsi que "..nbEtoiles.." étoile.")
+print("Héro possède désormais "..totalPieces.." pièces et "..viesHero.." vies. Ainsi que "..nbEtoiles.." étoile.")
 ```
 
 sortie console :
-
-| Héro : Ils sont quand même sacrément bon ces petits champignons ! Héro gagne une étoile car il a atteint 3 vies. Héro possède désormais 0. Méchant : Héro je t'attends dans mon château, je t'ai préparé un café chaud bouillant rien que pour toi ! Méchant : Héro je t'attends dans mon château, je t'ai préparé un café chaud bouillant rien que pour toi ! héro possède désormais 0 pièces et 5 vies. Ainsi que 1 étoile. |
-| --- |
-
 ```
 Héro : Ils sont quand même sacrément bon ces petits champignons ! Héro gagne une étoile car il a atteint 3 vies. 
 
@@ -413,7 +402,7 @@ Héro possède désormais 0. Méchant : Héro je t'attends dans mon château, je
 
 Héro je t'attends dans mon château, je t'ai préparé un café chaud bouillant rien que pour toi ! 
 
-héro possède désormais 0 pièces et 5 vies. Ainsi que 1 étoile.
+Héro possède désormais 0 pièces et 5 vies. Ainsi que 1 étoile.
 ```
 
   
@@ -423,4 +412,4 @@ héro possède désormais 0 pièces et 5 vies. Ainsi que 1 étoile.
 
 **Rendez-vous pour la suite au prochain cours =)**
 
-* * *
+

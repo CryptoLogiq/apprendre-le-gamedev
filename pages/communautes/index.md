@@ -13,7 +13,7 @@ Contiens : Site web, Discord.
 
 [Gamecodeur - école de jeux vidéo en ligne](https://www.gamecodeur.fr/)
 
-* * *
+
 
 ## VideoGameCreation.fr
 
@@ -23,7 +23,7 @@ Contiens : Site web, Discord.
 
 [VideoGameCreation.fr - Devenez créateur de jeux vidéo. Apprenez à créer votre jeu vidéo de A à Z](https://videogamecreation.fr/)
 
-* * *
+
 
 ## Arcadia Corp
 
@@ -35,7 +35,7 @@ Contiens : Discord.
 
 [Arcadia Corp - La communauté des acteurs du jeu vidéo](https://discord.gg/Ug92ZMD)
 
-* * *
+
 
 ## Le Jardin des Slimes
 

@@ -22,7 +22,7 @@ Ces jeux doivent avant tout procurer du plaisir aux joueurs et si cet objectif e
 | ![](images/echecs.png)   [Les échecs](https://fr.wikipedia.org/wiki/%C3%89checs) | ![](images/tarot.png)   [Le tarot](https://fr.wikipedia.org/wiki/Tarot_\(carte\)) | ![](images/jeux_societes.png)   [Jeux de société moderne](https://www.philibertnet.com/fr/9552-pour-s-initier-aux-jeux-modernes) |
 | --- | --- | --- |
 
-* * *
+
 
 Maintenant parlons des jeux vidéos, qui nous intéresse le plus. Revenons en 1970… pour parler de…
 
@@ -78,7 +78,7 @@ Lorsqu’un joueur se retrouve absorbé par le jeu, généralement avec un score
 Ce sont les trois fondamentaux les plus importants à garder en tête pour les créateurs de jeu vidéo.  
 S'ils souhaitent faire ressentir du plaisir aux joueurs, ce sont les éléments clés qui ont été approuvés avec les jeux à succès. Alors ce sera également votre objectif ! Vous devrez atteindre cet objectif même sur des petits projets, car c’est le retour d'expérience des joueurs qui joueront à vos jeux et qui vous feront un retour du plaisir qu’ils ont eu ou pas en jouant à vos jeux. Ces retours vous aideront et vous motiveront pour progresser et réaliser de meilleurs jeux, ou bien ce jeu dont vous rêvez secrètement.
 
-* * *
+
 
 ### Les ressources utiles
 
@@ -104,4 +104,4 @@ Ainsi qu’un manga portant quasiment le même nom, même si cela parle beaucoup
 
  [Guide\_Metiers\_NUMERIQUES\_2019\_V3.pdf](https://drive.google.com/file/d/19hako1K6kdHjVOJqghzvIkALLTYWpb-X/view)
 
-* * *
+

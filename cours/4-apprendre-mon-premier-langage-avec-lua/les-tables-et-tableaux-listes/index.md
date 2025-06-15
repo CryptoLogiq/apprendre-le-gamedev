@@ -65,7 +65,7 @@ celles que nous n’aborderons pas dans les chapitres " Les bases Lua" (niveau p
 
 Maintenant il nous reste donc à aborder les variables de **type(table)** !
 
-* * *
+
 
 # Une table c’est quoi ?
 
@@ -159,7 +159,7 @@ Vous avez vu c’est nouveau ça : **index** et  **alphanumériques** !
 
 ils existent 2 types ! **alphanumériques** et **numériques** !
 
-* * *
+
 
 ### Les index alphanumériques
 
@@ -195,7 +195,7 @@ sortie console :
 100
 ```
 
-* * *
+
 
 ### Les index numériques
 
@@ -261,7 +261,7 @@ Cependant, **Inventaire\[1\]** existe bien et c’est un index numérique !
 
 _**De plus, on ne peut pas créer de variable en commençant par un nombre !**_
 
-* * *
+
 
 # Les itérateurs pairs et ipairs
 
@@ -276,7 +276,7 @@ Nous utiliserons donc les boucles pairs pour explorer tout le contenu d’une ta
   
 Voyons leurs syntaxes et des exemples =)
 
-* * *
+
 
 ### La Boucle pairs
 
@@ -331,7 +331,7 @@ force : 10
 
 Tous nos index ont été identifiés et print()
 
-* * *
+
 
 ### La Boucle ipairs :
 
@@ -381,7 +381,7 @@ sortie console :
 
 Seuls les index numériques ont été identifiés et print ! Parfait !
 
-* * *
+
 
 # L’imbrication des tables
 
@@ -499,7 +499,7 @@ _On dit alors que maTable.maSousTable est au 2ᵉ niveau de la table maTable._
 
 _maTable.maSousTable.monAutreTable = {} serait donc au 3ᵉ niveau…_
 
-* * *
+
 
 ### _Il faut Relire si vous doutez d’avoir bien compris ce qu'est une table…_
 
@@ -513,7 +513,7 @@ Même si ça reste assez flou (abstrait) si vous savez au moins comment les cree
 
 Si vous pensez avoir compris cela, on va approfondir légèrement plus les tables !
 
-* * *
+
 
 # Construire une table Numérique avec une boucle !
 
@@ -550,7 +550,7 @@ inventaire[3] : 3
 
 Parfait !
 
-* * *
+
 
 ### On peut connaître le nombre d’index numérique d’une table avec le symbole dièse #
 
@@ -614,7 +614,7 @@ sortie console :
 14 étant le nombre de **char** (caractères) contenu dans la variable string espace inclus.  
 Oui l'espace est un caractère, certes vide, mais c'est un caractère quand même.
 
-* * *
+
 
 # Gérer les index numérique avec une fonction Lua…
 
@@ -664,7 +664,7 @@ inventaire[2] : 2
 inventaire[3] : 3
 ```
 
-* * *
+
 
 ### Comment supprimer des index :
 
@@ -729,7 +729,7 @@ inventaire[2] : 3
   
 Quand l’index 2 a été supprimé tous les index suivant change de numéro d’index, dans notre cas l’index n°3 est devenu l’index n°2…
 
-* * *
+
 
 Voyons l'explication précédentes avec des schémas :
 
@@ -766,7 +766,7 @@ Parce que nous évoquerons de nouveau ces concepts lors d’exercices concrets a
 
 Ce qu’il faut mémoriser c’est que le nombre total d’index d’une table change à l’ajout et/ou à la suppression de ses index !
 
-* * *
+
 
 ## Deplacement des index lors de l'utilisation de table.insert()
 
@@ -816,4 +816,4 @@ Cela démontre bien que le déplacement des index, peut être effectuer avec tab
 
 **Fin de ce chapitre sur les tables et tableaux !**
 
-* * *
+
