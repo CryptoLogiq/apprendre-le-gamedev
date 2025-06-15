@@ -1,0 +1,8 @@
+- name: Accueil
+  link: /index.md
+- name: Cours
+  link: /cours/index.md
+- name: Communauté
+  link: /communaute.md
+- name: À propos
+  link: /pages/a-propos.md
