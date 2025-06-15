@@ -1,1 +1,1 @@
-[Accueil](/) | [Liste des Cours](/cours/) | [Communauté Discord](pages/discord/)
+[Accueil](./) | [Liste des Cours](cours/) | [Communauté Discord](pages/discord/)
