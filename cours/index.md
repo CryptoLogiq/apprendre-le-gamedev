@@ -14,9 +14,9 @@ Seule votre créativité sera votre limite en suivant les techniques enseignées
 
 Bon apprentissage à tous.
 
-## **[1\. Découverte de GameLogic.dev](https://gamelogiq.dev/liste-des-differents-cours/decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement/ "1. Découverte de GameLogic.dev")**
+## **[1\. Découverte de GameLogic.dev](cours/decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement/index.md)**
 
-[![](images/Logo_Cours_1.png)](https://gamelogiq.dev/liste-des-differents-cours/decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement/)
+[![](images/Logo_Cours_1.png)](cours/decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement/index.md)
 
 ##### _À propos du cours_
 
@@ -24,9 +24,9 @@ Découvrir en quoi consiste la création de jeux vidéo, ses origines et les out
 
 * * *
 
-## **[2\. Installation de mon premier Outil (IDE)](https://gamelogiq.dev/liste-des-differents-cours/5-mon-premier-framework-avec-lua-et-love2d-les-bases-love2d/love2d-frameworks-lua/installation-love2d-et-parametrage-de-lide-zerobrane/ "2. Installation de mon premier Outil (IDE)")**
+## **[2\. Installation de mon premier Outil (IDE)](cours/installation-love2d-et-parametrage-de-lide-zerobrane/index.md)**
 
-[![](images/Mon-premier_Outil_IDE_Lua.png)](https://gamelogiq.dev/liste-des-differents-cours/5-mon-premier-framework-avec-lua-et-love2d-les-bases-love2d/love2d-frameworks-lua/installation-love2d-et-parametrage-de-lide-zerobrane/)
+[![](images/Mon-premier_Outil_IDE_Lua.png)](cours/installation-love2d-et-parametrage-de-lide-zerobrane/index.md)
 
 ##### _À propos du cours_
 
@@ -34,9 +34,9 @@ Guide d'installation pas à pas de votre environnement de travail.
 
 * * *
 
-## **[3\. Les Notions en Mathématique Conseillé pour le Game Developpement](https://gamelogiq.dev/liste-des-differents-cours/3-les-mathematiques-les-bases-en-gamedev/ "3. Les Notions en Mathématique Conseillé pour le Game Developpement")**
+## **[3\. Les Notions en Mathématique Conseillé pour le Game Developpement](cours/3-les-mathematiques-les-bases-en-gamedev/index.md)**
 
-[![](images/maths.png)](https://gamelogiq.dev/liste-des-differents-cours/3-les-mathematiques-les-bases-en-gamedev/)
+[![](images/maths.png)](cours/3-les-mathematiques-les-bases-en-gamedev/index.md)
 
 ##### _À propos du cours_
 
@@ -56,9 +56,9 @@ Le contenu a été sélectionné avec les critères de choix suivants :
 
 * * *
 
-## **[4\. Apprendre Mon Premier Langage](https://gamelogiq.dev/liste-des-differents-cours/4-apprendre-mon-premier-langage-avec-lua-les-bases-lua/ "4. Apprendre Mon Premier Langage")**
+## **[4\. Apprendre Mon Premier Langage](cours/4-apprendre-mon-premier-langage-avec-lua-les-bases-lua/index.md)**
 
-[![](images/mon_premier_langage_lua.png)](https://gamelogiq.dev/liste-des-differents-cours/4-apprendre-mon-premier-langage-avec-lua-les-bases-lua/)
+[![](images/mon_premier_langage_lua.png)](cours/4-apprendre-mon-premier-langage-avec-lua-les-bases-lua/index.md)
 
 ##### _À propos du cours_
 
@@ -66,9 +66,9 @@ Dans ce cours, vous apprendrez les **bases du langage Lua** qui vont permettro
 
 * * *
 
-## **[5\. Mon Premier Framework avec Lua et Love2D](https://gamelogiq.dev/liste-des-differents-cours/5-mon-premier-framework-avec-lua-et-love2d-les-bases-love2d/ "5. Mon Premier Framework avec Lua et Love2D")**
+## **[5\. Mon Premier Framework avec Lua et Love2D](cours/5-mon-premier-framework-avec-lua-et-love2d-les-bases-love2d/index.md)**
 
-[![](images/mon_premier_framework_lua_love2d.png)](https://gamelogiq.dev/liste-des-differents-cours/5-mon-premier-framework-avec-lua-et-love2d-les-bases-love2d/)
+[![](images/mon_premier_framework_lua_love2d.png)](cours/5-mon-premier-framework-avec-lua-et-love2d-les-bases-love2d.md)
 
 ##### _À propos du cours_
 
@@ -82,9 +82,9 @@ Love2D est alors capable d’afficher du texte, de charger des polices, de charg
 
 * * *
 
-## **[6\. Les Concepts indispensables du GameDevelloper](https://gamelogiq.dev/liste-des-differents-cours/6-les-concepts-essentiels/ "6. Les Concepts indispensables du GameDevelloper")**
+## **[6\. Les Concepts indispensables du GameDevelloper](cours/6-les-concepts-essentiels/ "6. Les Concepts indispensables du GameDevelloper")**
 
-[![](images/concepts_essentiels_competences.png)](https://gamelogiq.dev/liste-des-differents-cours/6-les-concepts-essentiels/)
+[![](images/concepts_essentiels_competences.png)](cours/6-les-concepts-essentiels.md)
 
 ##### _À propos du cours_
 
@@ -92,9 +92,9 @@ Découvrez ici les Concepts essentiels pour maîtriser les outils du développeu
 
 * * *
 
-## [7\. Challenges : création de Jeux](https://gamelogiq.dev/liste-des-differents-cours/7-creation-de-jeux/)
+## [7\. Challenges : création de Jeux](cours/7-creation-de-jeux.md)
 
-[![](images/creer_des_jeux.png)](https://gamelogiq.dev/liste-des-differents-cours/7-creation-de-jeux/)
+[![](images/creer_des_jeux.png)](cours/7-creation-de-jeux.md)
 
 _À propos du cours_
 
