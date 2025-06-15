@@ -43,7 +43,7 @@ Prêt à plonger dans l’aventure ? Voici tes premiers pas :
 
 ![](images/Perso_cours_mini_100pxheight.png)
 
-\[Commence maintenant !](https://gamelogiq.dev/liste-des-differents-cours/ "Découvrez la liste des cours.")
+[Commence maintenant !](https://gamelogiq.dev/liste-des-differents-cours/ "Découvrez la liste des cours.")
 
 ## Qui sommes-nous ?
 
@@ -53,4 +53,4 @@ GameLogiq.dev, c’est une petite communauté de passionnés par les jeux vidéo
 
 Apprendre à coder peut sembler intimidant, mais on te promet que c’est à ta portée. Avec un peu de curiosité et nos leçons, tu seras bientôt fier de tes créations. Alors, prêt à coder ton premier jeu ?
 
-\[Découvre nos cours gratuits](https://gamelogiq.dev/liste-des-differents-cours/ "Découvrez la liste des cours.")
+[Découvre nos cours gratuits](https://gamelogiq.dev/liste-des-differents-cours/ "Découvrez la liste des cours.")
