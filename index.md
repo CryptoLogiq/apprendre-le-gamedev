@@ -43,7 +43,7 @@ Prêt à plonger dans l’aventure ? Voici tes premiers pas :
 
 ![](images/Perso_cours_mini_100pxheight.png)
 
-[Commence maintenant !](pages/liste-cours/index.md "Découvrez la liste des cours.")
+[Commence vos cours maintenant !](cours/index.md)
 
 
 ## Qui sommes-nous ?
