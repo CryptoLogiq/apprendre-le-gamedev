@@ -1,16 +1,15 @@
 remote_theme: pages-themes/midnight@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+  - jekyll-relative-links
 
-title: [Apprends a coder tes propres jeux videos]
-tagline: [apprends le gamedev facilement]
-description: [suis les etapes, pas à pas pour apprends a creer tes propres jeux videos]
-
-plugins:
- - jekyll-relative-links
+title: Apprends à coder tes propres jeux vidéos
+tagline: Apprends le gamedev facilement
+description: Suis les étapes, pas à pas pour apprendre à créer tes propres jeux vidéos
 
 relative_links:
- enabled: true
- collections: true
- exclude:
- - README.md
+  enabled: true
+  collections: true
+
+exclude:
+  - README.md
